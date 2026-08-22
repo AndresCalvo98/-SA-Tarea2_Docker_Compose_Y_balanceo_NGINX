@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "titulo": "La Inteligencia Artificial revoluciona la detección temprana de enfermedades",
+    "fecha": "2026-08-20",
+    "categoria": "Salud y Tecnología",
+    "imagen": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&auto=format&fit=crop",
+    "resumen": "Nuevos algoritmos de aprendizaje profundo logran identificar patologías con un 95% de precisión meses antes de presentar síntomas.",
+    "contenido": "En un avance sin precedentes, un equipo internacional de investigadores ha desarrollado un modelo de inteligencia artificial capaz de detectar marcadores tempranos de enfermedades neurodegenerativas y ciertos tipos de cáncer. Utilizando enormes bases de datos de historiales médicos anonimizados, la IA analiza variaciones sutiles en los resultados de laboratorio y escáneres que son imperceptibles para el ojo humano. 'Este no es un reemplazo para el médico, sino una herramienta que multiplica su capacidad', afirmó la Dra. Elena Rojas, líder del proyecto. Se espera que en los próximos años este sistema se integre de manera estándar en las revisiones médicas preventivas.",
+    "ai_source": "Contenido generado con Gemini y revisado por el equipo del proyecto."
+  },
+  {
+    "id": 2,
+    "titulo": "Lanzamiento exitoso del primer cohete totalmente reutilizable comercial",
+    "fecha": "2026-08-19",
+    "categoria": "Exploración Espacial",
+    "imagen": "https://images.unsplash.com/photo-1517976487492-5750f3195933?w=800&auto=format&fit=crop",
+    "resumen": "La industria aeroespacial marca un hito con el exitoso despegue y aterrizaje de la nave 'Nova-X', reduciendo drásticamente los costos de viaje al espacio.",
+    "contenido": "A las 08:00 AM hora local, la empresa AeroTech lanzó con éxito su cohete Nova-X desde la plataforma orbital. La novedad de esta misión radicó en que, tras entregar su carga de microsatélites en la órbita baja de la Tierra, todas las etapas del cohete regresaron y aterrizaron de manera autónoma y segura en plataformas marinas y terrestres. Este nivel de reutilización completa promete reducir el costo por kilogramo de carga espacial en más del 80%. Los expertos señalan que este avance acelera significativamente los planes para futuras misiones habitadas a Marte y la Luna.",
+    "ai_source": "Texto redactado por ChatGPT 4."
+  },
+  {
+    "id": 3,
+    "titulo": "La Computación Cuántica rompe nuevo récord de estabilidad",
+    "fecha": "2026-08-18",
+    "categoria": "Ciencia y Computación",
+    "imagen": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&auto=format&fit=crop",
+    "resumen": "Científicos logran mantener el entrelazamiento de cúbits a temperatura ambiente durante más de 10 minutos, un salto fundamental para la industria.",
+    "contenido": "Uno de los mayores obstáculos para la adopción masiva de la computación cuántica ha sido la necesidad de operar los sistemas a temperaturas cercanas al cero absoluto (-273 °C). Hoy, investigadores del Instituto de Ciencias Cuánticas anunciaron un material sintético capaz de estabilizar los estados cuánticos a temperatura ambiente. Lograron mantener el entrelazamiento de 50 cúbits durante 10 minutos, tiempo suficiente para realizar cálculos complejos que a una supercomputadora clásica le tomarían miles de años. Este descubrimiento acerca la posibilidad de tener aceleradores cuánticos en servidores comerciales en la próxima década.",
+    "ai_source": "Fuente: Texto generado con Microsoft Copilot."
+  },
+  {
+    "id": 4,
+    "titulo": "Videojuegos generados proceduralmente: El fin del 'fin del juego'",
+    "fecha": "2026-08-15",
+    "categoria": "Videojuegos",
+    "imagen": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=800&auto=format&fit=crop",
+    "resumen": "Un nuevo motor gráfico utiliza IA generativa para crear mundos, historias y personajes infinitos en tiempo real mientras el usuario juega.",
+    "contenido": "La industria del gaming está a punto de transformarse radicalmente con la presentación de 'Infinity Engine'. A diferencia de los juegos tradicionales donde los diseñadores crean mapas estáticos, este motor utiliza modelos masivos de IA para interpretar las acciones del jugador y generar entornos tridimensionales, diálogos y narrativas coherentes sobre la marcha. Las primeras pruebas muestran a jugadores experimentando aventuras donde cada decisión altera dramáticamente el desarrollo del mundo, creando experiencias 100% únicas en cada sesión. Si bien plantea debates sobre el futuro del diseño de juegos, la innovación ha sido aclamada por la crítica.",
+    "ai_source": "Contenido generado con Gemini."
+  },
+  {
+    "id": 5,
+    "titulo": "Nuevo récord de eficiencia en paneles solares de perovskita",
+    "fecha": "2026-08-10",
+    "categoria": "Energías Renovables",
+    "imagen": "https://images.unsplash.com/photo-1509391366360-1f9509ce1359?w=800&auto=format&fit=crop",
+    "resumen": "Alcanzan un 35% de eficiencia en la conversión de energía solar, superando el límite teórico de las celdas tradicionales de silicio.",
+    "contenido": "La transición hacia energías limpias recibe un fuerte impulso con el desarrollo de una nueva generación de celdas solares basadas en perovskita. A diferencia del silicio, tradicionalmente utilizado, este material es más económico y fácil de fabricar. Un equipo de ingenieros logró combinar silicio con una fina capa de perovskita (celda en tándem) para capturar un espectro mucho más amplio de la luz solar, logrando un récord de eficiencia de conversión del 35%. Esta tecnología podría implementarse en los tejados y ventanas de las ciudades, multiplicando la capacidad de generación descentralizada de energía.",
+    "ai_source": "Texto generado con ChatGPT."
+  },
+  {
+    "id": 6,
+    "titulo": "El impacto económico del teletrabajo en las grandes urbes post-2025",
+    "fecha": "2026-08-05",
+    "categoria": "Economía y Sociedad",
+    "imagen": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&auto=format&fit=crop",
+    "resumen": "Estudio revela cómo el asentamiento definitivo del modelo híbrido de trabajo ha redibujado el mapa económico y de servicios en las principales capitales.",
+    "contenido": "Un reciente informe económico muestra que la consolidación del trabajo híbrido ha generado una transformación estructural en las principales ciudades del mundo. Mientras los distritos financieros tradicionales han visto una disminución del 30% en el valor del alquiler comercial y el cierre de negocios dependientes del tránsito diario de oficinistas, los suburbios y las llamadas 'ciudades dormitorio' están experimentando un auge sin precedentes. Nuevos polos comerciales locales, espacios de coworking descentralizados y un aumento en el consumo barrial están redibujando la economía urbana, obligando a los gobiernos a repensar la planificación urbana y el transporte público.",
+    "ai_source": "Fuente: Texto generado con Microsoft Copilot y editado manualmente."
+  }
+]

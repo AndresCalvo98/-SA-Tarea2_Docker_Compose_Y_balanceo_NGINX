@@ -1,0 +1,51 @@
+services:
+  # Instancia 1 de la aplicación web
+  web1:
+    build: ./app
+    container_name: portal_noticias_web1
+    environment:
+      - PORT=3000
+    networks:
+      - portal_network
+    restart: unless-stopped
+
+  # Instancia 2 de la aplicación web
+  web2:
+    build: ./app
+    container_name: portal_noticias_web2
+    environment:
+      - PORT=3000
+    networks:
+      - portal_network
+    restart: unless-stopped
+
+  # Instancia 3 de la aplicación web
+  web3:
+    build: ./app
+    container_name: portal_noticias_web3
+    environment:
+      - PORT=3000
+    networks:
+      - portal_network
+    restart: unless-stopped
+
+  # Servidor NGINX (Proxy Inverso y Balanceador de Carga)
+  nginx:
+    image: nginx:latest
+    container_name: portal_noticias_nginx
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - "80:80"
+    depends_on:
+      - web1
+      - web2
+      - web3
+    networks:
+      - portal_network
+    restart: unless-stopped
+
+# Red interna para comunicación entre contenedores
+networks:
+  portal_network:
+    driver: bridge

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= pageTitle %></title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1>🌐 Tech & AI News</h1>
+            <p>Portal de Noticias Académico Asistido por IA</p>
+        </div>
+    </header>
+
+    <div class="instance-banner">
+        Respondiendo desde la instancia: <strong><%= instanceId %></strong>
+    </div>
+
+    <main class="container">
+        <section class="news-grid">
+            <% if(noticias.length > 0) { %>
+                <% noticias.forEach(noticia => { %>
+                    <article class="news-card">
+                        <img src="<%= noticia.imagen %>" alt="Imagen noticia">
+                        <div class="card-content">
+                            <span class="category"><%= noticia.categoria %></span>
+                            <h2><a href="/noticia/<%= noticia.id %>"><%= noticia.titulo %></a></h2>
+                            <p class="date"><%= noticia.fecha %></p>
+                            <p class="summary"><%= noticia.resumen %></p>
+                            <a href="/noticia/<%= noticia.id %>" class="read-more">Leer más &rarr;</a>
+                            <p class="ai-source"><small><em><%= noticia.ai_source %></em></small></p>
+                        </div>
+                    </article>
+                <% }) %>
+            <% } else { %>
+                <p>No hay noticias disponibles en este momento.</p>
+            <% } %>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>Proyecto académico de Sistemas Abiertos. <br> Todas las noticias mostradas en este portal han sido generadas mediante inteligencia artificial y no representan información periodística verificada.</p>
+        </div>
+    </footer>
+</body>
+</html>

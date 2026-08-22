@@ -1,0 +1,20 @@
+Prompts utilizados para la generación de las noticias de este portal:
+
+Prompt 1 (Para generar las noticias base en Gemini):
+"Actúa como un redactor de noticias de tecnología y ciencia. Necesito que escribas 6 noticias breves pero realistas (ambientadas en un futuro cercano o en la actualidad). 
+Cada noticia debe tener:
+- ID (del 1 al 6)
+- Título atractivo
+- Fecha de publicación (ej. 2026-08-15)
+- Categoría (ej. IA, Espacio, Energía)
+- Una URL de imagen representativa de Unsplash (ej. formato https://images.unsplash.com/photo-... )
+- Un resumen breve de 1 o 2 líneas
+- Contenido principal (un párrafo de unas 100 palabras)
+- Una nota final que diga: 'Contenido generado con [Nombre de IA]' (puedes variar el nombre entre ChatGPT, Gemini, Microsoft Copilot).
+
+Devuélveme el resultado únicamente en formato de array JSON válido, listo para ser consumido por una API."
+
+---
+
+Prompt 2 (Ajustes de estilo):
+"Revisa el JSON generado. Asegúrate de que los textos sean coherentes, no contengan sesgos ofensivos y mantengan un tono periodístico formal. También asegúrate de que las URLs de las imágenes apunten a imágenes reales de Unsplash agregando el parámetro ?w=800 para optimizar el tamaño. Mantén la advertencia de que es contenido generado por IA en el campo 'ai_source'."
